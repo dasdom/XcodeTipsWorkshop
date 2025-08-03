@@ -1,0 +1,679 @@
+[
+  {
+    "id": "run_app_1",
+    "category": "general",
+    "title": "Run the app",
+    "shortcuts": ["⌘R"],
+    "webside": "https://xcode.tips/assets/03_run_stop.jpg",
+    "authorNotes": [
+      "Run the app.",
+      "It doesn't compile.",
+      "There are errors and warnings.",
+      "They are not shown all the time.",
+      "Sometimes they appear when you switch between navigators."
+    ]
+  },
+  {
+    "id": "hide_warnings_in_issue_navigator",
+    "category": "general",
+    "title": "Hide warnings in Issue navigator",
+    "webside": "https://xcode.tips/assets/57_show_only_errors.jpg",
+    "authorNotes": [
+      "Switch to issue navigator: Cmd 5",
+      "Hide warnings in issue navigator.",
+      "Click on error in TipCell.swift"
+    ]
+  },
+  {
+    "id": "increase_font_size",
+    "category": "editor",
+    "title": "Increase font size",
+    "shortcuts": ["⌘="],
+    "webside": "https://xcode.tips/assets/18_increase_decrease_font_size.jpg",
+    "authorNotes": [
+      "Increase font that participants can read the code better."
+    ]
+  },
+  {
+    "id": "decrease_font_size",
+    "category": "editor",
+    "title": "Decrease font size",
+    "shortcuts": ["⌘-"],
+    "webside": "https://xcode.tips/assets/18_increase_decrease_font_size.jpg",
+    "authorNotes": [
+      "Increase font that participants can read the code better."
+    ]
+  },
+  {
+    "id": "quick_actions",
+    "category": "view",
+    "title": "Show Quick Actions",
+    "shortcuts": ["⌘⇧A"],
+    "webside": "https://xcode.tips/assets/58_quick_actions.jpg",
+    "authorNotes": [
+      "Show how to let Xcode add an initializer."
+    ]
+  },
+  {
+    "id": "fix_all_issues",
+    "category": "editor",
+    "title": "Fix all issues",
+    "shortcuts": ["⌃⌥⌘F"],
+    "webside": "https://xcode.tips/assets/36_fix_all_issues.jpg",
+    "authorNotes": [
+      "Use Ctrl Option Cmd F to add the init(coder:) initializer."
+    ]
+  },
+  {
+    "id": "reveal_in_changes_navigator",
+    "category": "navigate",
+    "title": "Reveal in Changes Navigator",
+    "shortcuts": ["⌘⇧M"],
+    "webside": "https://xcode.tips/assets/37_reveal_in_changes_navigator.jpg",
+    "authorNotes": [
+      "Reveal in Changes Navigator",
+      "Ctrl click on TipCell.swift",
+      "Discard changes"
+    ]
+  },
+  {
+    "id": "additional_cursors_1",
+    "category": "editor",
+    "title": "Additional Cursors",
+    "shortcuts": ["⌃⇧Click"],
+    "webside": "https://xcode.tips/assets/13_multi_cursor_ii.jpg",
+    "authorNotes": [
+      "Replace the three `let` keywords in `UsersListCell` with `@IBOutlet var`.",
+      "Move to end with 'Cmd ->' and add a `!`."
+    ]
+  },
+  {
+    "id": "additional_cursors_2",
+    "category": "editor",
+    "title": "Additional Cursors",
+    "shortcuts": ["⌃⇧DoubleClick"],
+    "authorNotes": [
+      "Cmd Z to undo",
+      "Replace the three `let` keywords in `UsersListCell` with `@IBOutlet var`.",
+      "Move to end with 'Cmd ->' and add a `!`."
+    ]
+  },
+  {
+    "id": "additional_cursors_3",
+    "category": "editor",
+    "title": "Additional Cursors",
+    "shortcuts": ["⌃⇧↑ / ⌃⇧↓"],
+    "webside": "https://xcode.tips/assets/12_multi_cursor_i.jpg",
+    "authorNotes": [
+      "Cmd Z to undo",
+      "Replace the three `let` keywords in `UsersListCell` with `@IBOutlet var`.",
+      "Move to end with 'Cmd ->' and add a `!`."
+    ]
+  },
+  {
+    "id": "additional_cursors_4",
+    "category": "editor",
+    "title": "Additional Cursors",
+    "shortcuts": ["⌥Drag"],
+    "webside": "https://xcode.tips/assets/19_multi_cursor_iii.jpg",
+    "authorNotes": [
+      "Cmd Z to undo",
+      "Replace the three `let` keywords in `UsersListCell` with `@IBOutlet var`.",
+      "Move to end with 'Cmd ->' and add a `!`."
+    ]
+  },
+  {
+    "id": "author_run_app_1",
+    "category": "author",
+    "title": "Run and check log",
+    "authorNotes": [
+      "Run the app.",
+      "Nothing is shown."
+    ]
+  },
+  {
+    "id": "jump_to_line_1",
+    "category": "navigate",
+    "title": "Jump to line",
+    "shortcuts": ["⌘L"],
+    "authorNotes": [
+      "Open Quickly TipListViewController.swift",
+      "Cmd L to jump to line 56"
+    ]
+  },
+  {
+    "id": "add_breakpoint",
+    "category": "debug",
+    "title": "Add breakpoint in current line",
+    "shortcuts": ["⌘\\"],
+    "shortcutsDe": ["⌘#"],
+    "webside": "https://xcode.tips/assets/21_add_remove_breakpoint.jpg",
+    "authorNotes": [
+      "Add breakpoint in TipListViewController.swift line 56."
+    ]
+  },
+  {
+    "id": "author_run_app_2",
+    "category": "author",
+    "title": "Run and check log",
+    "authorNotes": [
+      "Run the app.",
+      "Breakpoint isn't hit.",
+      "Fix typo."
+    ]
+  },
+  {
+    "id": "author_run_and_check_log",
+    "category": "author",
+    "title": "Run and check log",
+    "authorNotes": [
+      "Run the app.",
+      "App crashes."
+    ]
+  },
+  {
+    "id": "open_log_console",
+    "category": "view",
+    "title": "Open Log Console",
+    "shortcuts": ["⌘⇧C"],
+    "authorNotes": [
+      "Open the log.",
+      "See log output.",
+      "The log tells us the cell id is missing"
+    ]
+  },
+  {
+    "id": "stop_run",
+    "category": "general",
+    "title": "Stop the run",
+    "shortcuts": ["⌘."],
+    "webside": "https://xcode.tips/assets/03_run_stop.jpg"
+  },
+  {
+    "id": "ib_find_the_right_view",
+    "category": "interfaceBuilder",
+    "title": "Interface Builder: Find The Right View",
+    "shortcuts": ["⌃⇧Click"],
+    "webside": "https://xcode.tips/assets/15_ib_views_under_cursor.jpg",
+    "authorNotes": [
+      "To select the custom cell, 'Ctrl Shift Click' one of the labels and click the cell in the list."
+    ]
+  },
+  {
+    "id": "open_attribute_inspector",
+    "category": "general",
+    "title": "Open Attribute Inspector",
+    "shortcuts": ["⌥⌘5"],
+    "authorNotes": [
+      "Set the re-use identifier to 'XcodeTipsWorkshop.TipCell'."
+    ]
+  },
+  {
+    "id": "ib_zoom_in",
+    "category": "interfaceBuilder",
+    "title": "Interface Builder: Zoom",
+    "shortcuts": ["⌥Scroll"]
+  },
+  {
+    "id": "hide_mini_map",
+    "category": "editor",
+    "title": "Hide Mini-Map",
+    "shortcuts": ["⌃⇧⌘M"]
+  },
+  {
+    "id": "ib_bounds_rectangles",
+    "category": "interfaceBuilder",
+    "title": "Interface Builder: Bounds Rectangles",
+    "webside": "https://xcode.tips/assets/51_ib_bounds_rectangles.jpg"
+  },
+  {
+    "id": "ib_distance_between_views",
+    "category": "interfaceBuilder",
+    "title": "Interface Builder: Distance Between Views",
+    "shortcuts": ["⌥Hover"],
+    "webside": "https://xcode.tips/assets/14_ib_distance.jpg",
+    "authorNotes": [
+      "Select one of the label and hold down 'Option' while hovering over the other views."
+    ]
+  },
+  {
+    "id": "ib_appearance_preview",
+    "category": "interfaceBuilder",
+    "title": "Interface Builder: Appearance Preview",
+    "webside": "https://xcode.tips/assets/22_ib_appearance_preview.jpg",
+    "authorNotes": [
+      "The shortcuts label in the list has the wrong text color",
+      "Change the text color to 'Label Color'"
+    ]
+  },
+  {
+    "id": "ib_accessibility_preview",
+    "category": "interfaceBuilder",
+    "title": "Interface Builder: Accessibility Preview",
+    "authorNotes": [
+      "'Shortcuts' label doesn't use dynamic type",
+      "Change the type to 'Large Title'"
+    ]
+  },
+  {
+    "id": "ib_guides",
+    "category": "interfaceBuilder",
+    "title": "Interface Builder: Guides",
+    "shortcuts": ["Editor > Guides"],
+    "webside": "https://xcode.tips/assets/40_ib_guides.jpg",
+    "authorNotes": [
+      "Add a horizontal and a vertical guide."
+    ]
+  },
+  {
+    "id": "author_run_app_3",
+    "category": "general",
+    "title": "Run the app",
+    "shortcuts": ["⌘R"],
+    "webside": "https://xcode.tips/assets/03_run_stop.jpg",
+    "authorNotes": [
+      "Run the app."
+    ]
+  },
+  {
+    "id": "continue_to_here",
+    "category": "debug",
+    "title": "Continue To Here",
+    "authorNotes": [
+      "Ctrl-click `update(with: shownTips)` and select 'Continue To Here'"
+    ]
+  },
+  {
+    "id": "add_breakpoint_2",
+    "category": "debug",
+    "title": "Add breakpoint in current line",
+    "shortcuts": ["⌘\\"],
+    "shortcutsDe": ["⌘#"],
+    "webside": "https://xcode.tips/assets/21_add_remove_breakpoint.jpg",
+    "authorNotes": [
+      "Add breakpoint in TipListViewController.swift line 73."
+    ]
+  },
+  {
+    "id": "breakpoint_to_add_demo_data",
+    "category": "debug",
+    "title": "Breakpoint to add demo data",
+    "authorNotes": [
+      "Edit breakpont and add debugger command `e shownTips = [Tip(id: \"001\", title: \"Hello title\", shortcuts: [\"Hello shortcut\"])]`.",
+      "Add sound",
+      "Change order of breakpoint actions",
+      "Check 'Automatically continue...'"
+    ]
+  },
+  {
+    "id": "breakpoint_quick_look",
+    "category": "debug",
+    "title": "Breakpoint: Quick Look",
+    "authorNotes": [
+      "Open TipsListViewController.swift",
+      "Add breakpoint in line `return cell`",
+      "Run app",
+      "When app stops at breakpoint, use quick look to check TipCell"
+    ]
+  },
+  {
+    "id": "color_contrast_calculator",
+    "category": "debug",
+    "title": "Accessibility Inspector: Color Contrast Calculator",
+    "shortcuts": ["⌥⌘C"],
+    "webside": "https://xcode.tips/assets/67_color_contrast_calculator.jpg",
+    "authorNotes": [
+      "Check color contrast of short cut view",
+      "Change contrast"
+    ]
+  },
+  {
+    "id": "author_run_app_4",
+    "category": "general",
+    "title": "Run the app",
+    "shortcuts": ["⌘R"],
+    "webside": "https://xcode.tips/assets/03_run_stop.jpg",
+    "authorNotes": [
+      "Run the app.",
+      "Scroll down to additional cursors III."
+    ]
+  },
+  {
+    "id": "author_open_log_console",
+    "category": "view",
+    "title": "Open Log Console",
+    "shortcuts": ["⌘⇧C"],
+    "authorNotes": [
+      "Open the log.",
+      "There is a warning about layout constraints.",
+      "Start the view debugger."
+    ]
+  },
+  {
+    "id": "view_debugger_export_and_reopen",
+    "category": "debug",
+    "title": "View Debugger: Export and reopen",
+    "webside": "https://xcode.tips/assets/07_view_debugger.jpg",
+    "authorNotes": [
+      "File > Export View Hierachry..."
+    ]
+  },
+  {
+    "id": "view_debugger_find_problematic_view",
+    "category": "debug",
+    "title": "View Debugger: Find problematic view",
+    "webside": "https://xcode.tips/assets/45_find_problematic_constraint.jpg",
+    "authorNotes": [
+      "Open view hierarchy and search for problematic constraint."
+    ]
+  },
+  {
+    "id": "open_quickly",
+    "category": "general",
+    "title": "Open Quickly",
+    "shortcuts": ["⌘⇧O"],
+    "webside": "https://xcode.tips/assets/16_open_quickly.jpg",
+    "authorNotes": [
+      "'Cmd Shift O' to open TipsListViewController.swift.",
+      "'Cmd Shift O' to open AppDelegate.swift."
+    ]
+  },
+  {
+    "id": "editor_history_go_back",
+    "category": "navigate",
+    "title": "Go Back",
+    "shortcuts": ["⌃⌘←"],
+    "webside": "https://xcode.tips/assets/05_editor_history.jpg",
+    "authorNotes": [
+      "Navigate back to TipCell.swift.",
+      "Then navigate back to the history item before that"
+    ]
+  },
+  {
+    "id": "editor_history_go_forward",
+    "category": "navigate",
+    "title": "Go Forward",
+    "shortcuts": ["⌃⌘→"],
+    "webside": "https://xcode.tips/assets/05_editor_history.jpg",
+    "authorNotes": [
+      "Navigate forward to TipsListViewController.swift."
+    ]
+  },
+  {
+    "id": "jump_bar",
+    "category": "view",
+    "title": "Jump Bar",
+    "shortcuts": ["⌃0...⌃6"],
+    "webside": "https://xcode.tips/assets/08_show_document_items.jpg",
+    "authorNotes": [
+      "Show all quick jumps.",
+      "Use 'Ctrl 6' to jump to 'tabldidsele'."
+    ]
+  },
+  {
+    "id": "reveal_in_project_navigator",
+    "category": "navigate",
+    "title": "Reveal In Project Navigator",
+    "shortcuts": ["⌘⇧J"],
+    "webside": "https://xcode.tips/assets/26_reveal_in_project_navigator.jpg",
+    "authorNotes": [
+      "'Cmd Shift O' to open TipDetailsViewController.swift.",
+      "Then 'Cmd Shift J'."
+    ]
+  },
+  {
+    "id": "move_focus_to_editor",
+    "category": "navigate",
+    "title": "Move Focus To Editor",
+    "shortcuts": ["⌘J"],
+    "webside": "https://xcode.tips/assets/01_move_focus.jpg"
+  },
+  {
+    "id": "must_have_breakpoint",
+    "category": "debug",
+    "title": "Must-Have-Breakpoint",
+    "webside": "https://xcode.tips/assets/24_print_current_view_controller.jpg",
+    "authorNotes": [
+      "Create symbolic breakpoint for symbol `-[UIViewController viewWillAppear:]`.",
+      "Add debugger command `po $arg1`.",
+      "Check 'Automatically continue...''"
+    ]
+  },
+  {
+    "id": "move_breakpoint_to_user",
+    "category": "debug",
+    "title": "Move Breakpoint To User",
+    "webside": "https://xcode.tips/assets/25_move_breakpoint_to_user.jpg"
+  },
+  {
+    "id": "change_color_of_debug_output",
+    "category": "debug",
+    "title": "Change Color Of Debug Output",
+    "webside": "https://xcode.tips/assets/44_improve_debug_output.jpg"
+  },
+  {
+    "id": "navigators",
+    "category": "view",
+    "title": "Navigators",
+    "shortcuts": ["⌘0...⌘9"],
+    "webside": "https://xcode.tips/assets/06_navigators.jpg"
+  },
+  {
+    "id": "debug_gauges",
+    "category": "debug",
+    "title": "Debug Gauges",
+    "webside": "https://xcode.tips/assets/32_debug_gauges.jpg"
+  },
+  {
+    "id": "profile_in_instruments",
+    "category": "debug",
+    "title": "Profile in Instruments",
+    "webside": "https://xcode.tips/assets/32_debug_gauges.jpg"
+  },
+  {
+    "id": "find_in_file",
+    "category": "find",
+    "title": "Find In File",
+    "shortcuts": ["⌘F"],
+    "webside": "https://xcode.tips/assets/10_find_next_previous.jpg"
+  },
+  {
+    "id": "find_next",
+    "category": "find",
+    "title": "Find Next",
+    "shortcuts": ["⌘G"]
+  },
+  {
+    "id": "find_previous",
+    "category": "find",
+    "title": "Find Previous",
+    "shortcuts": ["⇧⌘G"]
+  },
+  {
+    "id": "find_ancestor_types",
+    "category": "find",
+    "title": "Find Ancestor Types",
+    "authorNotes": [
+      "`Cmd Shift O` to open TipCell",
+      "Arrow right to show alternative",
+      "Select alternative which is the TipCell type",
+      "Find > Find Ancestor Type",
+      "Check 'Include Properties and Functions'",
+      "Search again",
+      "Expand TipCell",
+      "Expand Protocols"
+    ]
+  },
+  {
+    "id": "find_conforming_types",
+    "category": "find",
+    "title": "Find Conforming Types",
+    "authorNotes": [
+      "Change context to 'Conforming Types'",
+      "Search for uisearchbardelegate"
+    ]
+  },
+  {
+    "id": "bookmark_search",
+    "category": "find",
+    "title": "Bookmark Search",
+    "authorNotes": [
+      "Ctrl click on 'TipsListViewController",
+      "Bookmark 'Find uisearchbardelegate'",
+      "Cmd 3 to switch to Bookmarks navigator"
+    ]
+  },
+  {
+    "id": "bookmark_line",
+    "category": "find",
+    "title": "Bookmark Line in Code",
+    "authorNotes": [
+      "Expand 'TipsListViewController'",
+      "Select 'changeKeyboardLayout(_:)'",
+      "Click three dots at bottom of navigator",
+      "Bookmark \"TipsListViewController.swift\" Line 130"
+    ]
+  },
+  {
+    "id": "format_to_multiple_lines",
+    "category": "editor",
+    "title": "Format to Multiple Lines",
+    "shortcuts": ["⌃M"]
+  },
+  {
+    "id": "hidden_behavior_open_search_tap",
+    "category": "general",
+    "title": "Behavior: Open Search Tap",
+    "authorNotes": [
+      "Xcode > Behaviors > Edit Behaviors",
+      "Search > Starts > Show window tap named 🔍"
+    ]
+  },
+  {
+    "id": "search_scopes",
+    "category": "find",
+    "title": "Search Scopes",
+    "authorNotes": [
+      "Cmd Shift F to start project search",
+      "Click on 'In Project'",
+      "Add Search Scope to only search files with source control state"
+    ]
+  },
+  {
+    "id": "author_jump_to_line_2",
+    "category": "author",
+    "title": "Jump to line",
+    "shortcuts": ["⌘L"],
+    "authorNotes": [
+      "Open Quickly TipListViewController.swift",
+      "Cmd L to jump to line 87"
+    ]
+  },
+  {
+    "id": "check_spelling_while_typing",
+    "category": "editor",
+    "title": "Check Spelling While Typing",
+    "authorNotes": [
+      "Open Help and type 'Spelling'",
+      "Select 'Check Spelling While Typing'"
+    ]
+  },
+  {
+    "id": "edit_all_in_scope",
+    "category": "editor",
+    "title": "Edit All In Scope",
+    "shortcuts": ["⌃⌘E"],
+    "authorNotes": [
+      "Place cursor in `snapsot` and use shortcut 'Ctrl Cmd E'.",
+      "Replace `snapsot` with `snapshot`."
+    ]
+  },
+  {
+    "id": "move_line_up",
+    "category": "editor",
+    "title": "Move Line Up",
+    "shortcuts": ["⌥⌘["],
+    "shortcutsDe": ["⌥⌘Ö"],
+    "authorNotes": [
+      "Open DetailView.swift",
+      "Move `.padding(8)` below `.foregroundColor(.white)`"
+    ]
+  },
+  {
+    "id": "move_line_down",
+    "category": "editor",
+    "title": "Move Line Down",
+    "shortcuts": ["⌥⌘]"],
+    "shortcutsDe": ["⌥⌘Ä"],
+    "authorNotes": [
+      "Move `.cornerRadius(10)` below `.background(Color(uiColor: .systemTeal))`"
+    ]
+  },
+  {
+    "id": "environment_overrides",
+    "category": "debug",
+    "title": "Environment Overrides"
+  },
+  {
+    "id": "view_frames",
+    "category": "debug",
+    "title": "View Frames"
+  },
+  {
+    "id": "slow_animations",
+    "category": "simulator",
+    "title": "Simulator: Slow Animations"
+  },
+  {
+    "id": "hidden_behaviors_show_build_log",
+    "category": "general",
+    "title": "Behaviors: Show Build Log"
+  },
+  {
+    "id": "hidden_disable_editor_tabs",
+    "category": "general",
+    "title": "Disable Editor Tabs"
+  },
+  {
+    "id": "hidden_automatically_switch_to_window_tabs",
+    "category": "general",
+    "title": "Automatically Switch To Window Tabs"
+  },
+  {
+    "id": "simulator_toggle_dark_mode",
+    "category": "simulator",
+    "title": "Simulator: Toggle dark mode",
+    "shortcuts": ["⌘⇧A"]
+  },
+  {
+    "id": "hidden_simulator_increase_decrease_dynamic_type",
+    "category": "simulator",
+    "title": "Simulator: Increase/Decrease Text Size",
+    "shortcuts": ["⌘⌥+", "⌘⌥-"]
+  },
+  {
+    "id": "hidden_asset_catalog_colors",
+    "category": "general",
+    "title": "Asset Catalog: Colors"
+  },
+  {
+    "id": "hidden_code_snippets",
+    "category": "general",
+    "title": "Code Snippets"
+  },
+  {
+    "id": "hidden_lldb_step_through_code",
+    "category": "debug",
+    "title": "LLDB: Step Through Code"
+  },
+  {
+    "id": "show_only_files_with_source_control_status",
+    "category": "integrate",
+    "title": "Show only files with source-control status"
+  },
+  {
+    "id": "show_only_recent_files",
+    "category": "view",
+    "title": "Show only recent files"
+  }
+]
