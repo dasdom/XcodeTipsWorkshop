@@ -417,7 +417,7 @@
     "shortcuts": ["⌘⇧J"],
     "webside": "https://xcode.tips/assets/26_reveal_in_project_navigator.jpg",
     "authorNotes": [
-      "'Cmd Shift O' to open TipDetailsViewController.swift.",
+      "'Cmd Shift O' to open DetailView.swift.",
       "Then 'Cmd Shift J'."
     ]
   },

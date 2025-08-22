@@ -123,8 +123,23 @@ extension TipsListViewController: UITableViewDelegate {
     let identifier = dataSource?.itemIdentifier(for: indexPath)
     if let tip = tips.first(where: { $0.id == identifier }) {
       let details = UIHostingController(rootView: DetailView(tip: tip))
-      splitViewController?.setViewController(details, for: .secondary)
+      let navigationController = UINavigationController(rootViewController: details)
+      splitViewController?.setViewController(navigationController, for: .secondary)
       splitViewController?.show(.secondary)
     }
+  }
+}
+
+// MARK: - UISearchBarDelegate
+extension TipsListViewController: UISearchBarDelegate {
+  func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+    if searchText.isEmpty {
+      shownTips = tips
+    } else {
+      shownTips = tips.filter({ tip in
+        return tip.title.localizedCaseInsensitiveContains(searchText)
+      })
+    }
+    update(with: shownTips)
   }
 }
