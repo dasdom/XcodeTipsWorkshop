@@ -53,6 +53,8 @@ class TipsListViewController: UIViewController {
   func viewdidLoad() {
     super.viewDidLoad()
 
+    keyboardLayout = Locale.current.identifier.contains("DE") ? .de : .us
+
     dataSource = UITableViewDiffableDataSource(tableView: tableView, cellProvider: { [weak self] tableView, indexPath, itemIdentifier in
 
       guard let self = self else {
